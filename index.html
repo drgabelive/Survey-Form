@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Code Training Survey Form</h1>
+
+    <p id="description">Please kindly fill out this Form with the required Information</p>
+    <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" placeholder="Gabriel Fleischer" required>
+    <br>
+    <br>
+    <label for="email" id="email-label">Email:</label>
+    <input id="email" type="email" placeholder="gabriel@amalitech.org" required> 
+    <br>
+    <br>
+    <label for="age" id="number-label">Age(years):</label>
+    <input id="number" type="number" placeholder="18" min="18" max="40"  required>
+    <br>
+    <br>
+    <label for="dropdown" id="Select current role">Which best describes your current role?</label>
+    <select id="dropdown">
+      <option value="">Select Current Role</option>
+      <option value="Role_1">Student</option>
+      <option value="Role_2">Full time job</option>
+      <option value="Role_3">Full time learner</option>
+      <option value="Role_4">Prefer not to say</option>
+    <option value="Role_5">Other</option>
+    </select>
+    <br>
+    <br>
+    <label for="recommendation" id="recommendation">Would you recommend coding to a friend?
+      <br>
+    </label>
+    <input id="recommend" type="radio" name="recommendation" value="recommendation">Definately
+    <br>
+    <input id="recommendation" type="radio"name="recommendation" value="recommendation">Maybe
+    <br>
+    <input id="recommendation" type="radio" name="recommendation" value="recommendation">Not sure
+    <br>
+    <br>
+    <label for="favorite feature">What is your favorite feature on Coding?</label>
+    <select id="dropdown">
+      <option value="" >Select an option</option>
+      <option value="Role_1">Challenges</option>
+      <option value="Role_2">Projects</option>
+      <option value="Role_3">Community</option>
+      <option value="Role_4">Open source</option>
+    </select>
+    <br>
+    <br>
+    <label for="courses" id="courses">what would you like to see learn?(check all that applies)</label>
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="front-end">Front-end projects
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="back-end">Back-end projects
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="data visualization">Data visualization
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="courses">Open source community
+    
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="challenges">Challenges
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="gitter help rooms">Gitter help rooms
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="videos">Videos
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="city meetups">City meetups
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="wiki">Wiki
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="forum">Forum
+    <br>
+    <input id="checkbox" type="checkbox" name="courses" value="additional courses">Additional courses
+    <br>
+    </fieldset>
+    <br>
+    <label id="textarea">Any comments or suggestions</label>
+    <br>
+    <br>
+    <textarea id="textarea" name="comments" rows="6" cols="50"></textarea>
+    <br>
+    <br>
+    <input id="submit" type="submit" value="Submit">
+      
+</body>
+</html>
+
+
+
+
+
+
